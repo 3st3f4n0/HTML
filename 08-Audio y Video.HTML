@@ -1,0 +1,42 @@
+<!-- Audio y Video 
+ 
+Estas etiquetas nos permiten insertar contenido multimedia.
+
+<audio>...</audio>
+<video>...</video>
+
+Parámetros
+
+- controls: Muestra los controles de reproducción del audio o video.
+- autoplay: Reproduce automáticamente el audio o el video al cargar la página.
+- loop: Reproduce el audio o video en un bucle continuo (no es una buena práctica si no lo puede controlar el usuario).
+- muted: Silencia el audio o video al cargar la página.
+
+Souls
+Dentro de la etiqueta <audio> y <video> se define la etiqueta <source/> y a esta etiqueta le pasamos el parámetro src que recibe como valor la ubicacion del contenido.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y video</title>
+</head>
+<body>
+    <h1 controls>Audio y Video</h1>
+
+    <h2>Contenido de audio</h2>
+    <audio controls autoplay muted loop>
+        <source src="multimedia/audio.mp3" />
+        Tu navegador no es compatible con el contenido multimedia. Actualiza tu navegador para visibilizarlo.
+    </audio>
+
+    <h2>Contenido de video</h2>
+    <video controls autoplay muted loop width="320" height="auto">
+        <source src="multimedia/video.mp4" /> 
+        Tu navegador no es compatible con el contenido multimedia. Actualiza tu navegador para visibilizarlo. 
+    </video>
+
+</body>
+</html>

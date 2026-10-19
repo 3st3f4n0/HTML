@@ -1,0 +1,57 @@
+<!-- Formularios    
+
+Formularios
+
+Son elementos que le permiten al usuario colocar información por parte del usuario.
+
+para el contenedor de un formulario se usan: 
+
+<form>...</form>
+
+Dentro de este elemento se colocan los campos (fields) y etiqueta (labels).
+
+<label>...><label/> Etiqueta asociada a un input.
+<input/> campo de acceso de una información. Son elementos self-closing. Y hay de diferentes tipos: texto, boton, chekbox, radio, password, email, number, date, file, etc. 
+
+parámetros.
+
+Para label:
+For: Indica la relación con el input. 
+
+Para input:
+Type: El tipo de campo
+Name: El nombre del campo con el que se relaciona el label.
+Placeholder: Texto que funciona como una pista para el usuario. 
+ID: Identificador para programar formularios y validar el dato dentro del input. 
+
+Otros elementos que se usan en el formulario: 
+
+<textarea>...</textarea> Área de texto para colocar información más extensa.
+<select>...</select> Lista desplegable de opciones.
+<option>...</option> Opciones de menú desplegable. 
+<button>...</button> Botón para enviar la información del formulario.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+ </head>
+ <body>
+    <h1>Formularios</h1>
+
+    <form>
+        <label for="contraseña">La referencia:</label>
+        <input type="text" name="contraseña" placeholder="Web0S" id="contraseña"/> 
+        <textarea name="" id=""></textarea>
+        <select name="" id="">
+            <option value="">Opción 1</option>
+            <option value="">Opción 2</option>
+            <option value="">Opción 3</option>
+        </select>
+        <button>Enviar</button>
+    </form>
+ </body>
+ </html>

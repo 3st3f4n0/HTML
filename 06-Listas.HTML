@@ -1,0 +1,55 @@
+<!--
+...
+
+las listas ordenadas llevan numeración, la sintaxis es la siguiente:
+<ol>...</ol>
+
+Las listas no ordenadas no llevan numeración, sino bullets o viñetas, la sintaxis es la siguiente:
+<ul>...</ul>
+
+para crear un elemento de lista se utiliza la siguiente sintaxis:
+<li>...</li>
+
+El atributo "type" nos permite identificar el tipo de numeración y bullet que estamos creando.
+Para las listas ordenadas son: 
+1 (Tipo numérico)
+A (Tipo alfabético)
+I (Tipo romano)
+
+Para las liastas no ordenadas son:
+Disc (Tipo disco)
+Circle (Tipo círculo)
+Square (Tipo cuadrado)
+
+ol y ul son elementos de bloque, por lo que no se pueden colocar dentro de un elemento de línea.
+
+ol: Crea una lista donde la secuencia o el orden de los elementos es importante (por ejemplo, pasos de una receta, instrucciones o un podio de ganadores).
+ul: Crea una lista donde el orden de los elementos es irrelevante (por ejemplo, una lista de compras, un menú de navegación o características de un producto).
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1> Listas</h1>
+    <p>Tenemos listas ordenadas y no ordenadas.</p>
+
+    <h2>Mi comida favorita</h2>
+    <ol type="1">
+        <li>Pizza</li>
+        <li>Pozole</li>
+        <li>Carne de perro</li>
+    </ol>
+
+        <h2>Top peores presidentes de México</h2>
+    <ul type="A">
+        <li>López Obrador alias "El cacas"</li>
+        <li>Sheinbaum alias "La tripa escurrida chichis de Limón"</li>
+        <li>El siguiente partidario morenista</li>
+    </ul>
+</body>
+</html>
